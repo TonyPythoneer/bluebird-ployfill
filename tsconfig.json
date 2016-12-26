@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": [
+            "dom",
+            "es5",
+            "es6",
+            "scripthost"
+        ],
+        "module": "commonjs",
+        "target": "es5",
+        "suppressImplicitAnyIndexErrors": true,
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "removeComments": false,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": false,
+        "noImplicitThis": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

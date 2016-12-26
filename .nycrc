@@ -1,0 +1,19 @@
+{
+    "lines": 95,
+    "statements": 95,
+    "functions": 95,
+    "branches": 95,
+    "include": [
+      "dist/*.js"
+    ],
+    "exclude": [
+      "dist/tests.js"
+    ],
+    "reporter": [
+      "html",
+      "text-summary"
+    ],
+    "cache": false,
+    "check-coverage": true,
+    "tap": true
+}

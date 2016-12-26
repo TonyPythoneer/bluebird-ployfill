@@ -1,0 +1,12 @@
+# nodejs
+node_modules
+
+# test
+.nyc_output
+coverage
+
+# typescript
+dist
+
+# vscode
+.vscode
