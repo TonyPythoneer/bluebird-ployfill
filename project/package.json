@@ -2,7 +2,8 @@
   "name": "bluebird-ployfill",
   "version": "0.0.0",
   "description": "A polyfill for using bluebird as Promise (when you don't like the original one.)",
-  "main": "bluebird-ployfill.js",
+  "main": "./lib/index.js",
+  "types": "./typings/index.d.ts",
   "scripts": {
     "watch": "npm run tsc:dev",
     "watch:dev": "tsc -w -p .",

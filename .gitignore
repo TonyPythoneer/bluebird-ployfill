@@ -1,12 +1,15 @@
 # nodejs
-node_modules
+node_modules/
+
+# typescript
+src/
+dist/
+lib/
+types/
 
 # test
 .nyc_output
 coverage
-
-# typescript
-dist
 
 # vscode
 .vscode
