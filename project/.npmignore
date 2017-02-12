@@ -1,0 +1,19 @@
+# node
+node_modules/
+
+# typescript
+dist/
+tsconfig.*
+tslint.json
+
+# test
+.nycrc
+.nyc_output/
+coverage/
+coverage.*
+
+# vscode
+.vscode/
+
+# yarn
+yarn.lock

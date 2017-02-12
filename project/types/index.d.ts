@@ -9,7 +9,3 @@ declare namespace NodeJS {
     }
 }
 declare var global: NodeJS.Global;
-
-
-//  Overwrite the original Promise in NodeJS
-global.Promise = bluebird;
