@@ -1,6 +1,6 @@
 {
   "name": "bluebird-ployfill",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A polyfill for using bluebird as Promise (when you don't like the original one.)",
   "main": "./lib/index.js",
   "typings": "./typings/index.d.ts",
