@@ -6,7 +6,7 @@ Using bluebird to replace origin Promise in global.
 
 Because origin Promise is so weak, bluebird have good performance, please refer [bluebird-benchmark]
 
-(By the way, it's only for Node.js environment)
+**NOTE**: This lib is only for Node.js environment
 
 ## Install
 
@@ -15,6 +15,15 @@ $ node install bluebird-ployfill
 ```
 
 ## Usage & Example
+
+Demo:
+
+**Promise** has all methods of **bluebird**.
+
+![bluebird-ployfill demo](./doc/demo.gif)
+
+
+Code:
 
 ```javascript
 import 'bluebird-ployfill';
