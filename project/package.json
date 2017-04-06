@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/TonyPythoneer/bluebird-ployfill#readme",
   "devDependencies": {
-    "@types/bluebird": "^3.0.36",
+    "@types/bluebird": "^3.5.2",
     "@types/node": "^6.0.52",
     "ava": "^0.17.0",
     "nyc": "^10.0.0",
@@ -36,6 +36,7 @@
     "typescript": "^2.1.4"
   },
   "dependencies": {
-    "bluebird": "^3.4.7"
+    "@types/bluebird-global": "^3.5.1",
+    "bluebird": "^3.5.0"
   }
 }
