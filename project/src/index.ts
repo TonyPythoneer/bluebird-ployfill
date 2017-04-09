@@ -1,4 +1,3 @@
-import * as bluebird from 'bluebird';
+import * as Bluebird from 'bluebird';
 
-//  Overwrite the original Promise in NodeJS
-global.Promise = bluebird;
+global.Promise = Bluebird;
