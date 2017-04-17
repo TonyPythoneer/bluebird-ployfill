@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A polyfill for using bluebird as global Promise (when you don't like the original one.)",
   "main": "./lib/index.js",
-  "typings": "./typings/index.d.ts",
+  "typings": "./types/index.d.ts",
   "scripts": {
     "build": "npm run build:dev",
     "build:dev": "tsc",
